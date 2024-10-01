@@ -1,3 +1,27 @@
-body{
+body {
+    background-color: #1b1b21;
+    
+    font-family: 'Courier New', Courier, monospace;
+    color:#cecece;
+
     text-align: center;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+section {
+    float: right;
+    width: 70%;
+}
+
+img {
+    width: 60%;
+}
+
+footer {
+    float: left;
+    width: 100%;
 }
