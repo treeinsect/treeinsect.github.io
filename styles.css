@@ -17,11 +17,15 @@ section {
     width: 70%;
 }
 
-img {
+footer {
+    float: left;
+    width: 100%;
+}
+
+#asidemain {
     width: 60%;
 }
 
-footer {
-    float: left;
+#chart {
     width: 100%;
 }
