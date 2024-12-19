@@ -9,12 +9,14 @@ body {
 
 aside {
     float: left;
-    width: 30%;
+    width: 25%;
+    padding: 2%;
 }
 
 section {
     float: right;
-    width: 70%;
+    width: 65%;
+    padding: 2%;
 }
 
 footer {
