@@ -1,5 +1,5 @@
 body {
-    background-color: #1b1b21;
+    background-color: #151e26;
     
     font-family: 'Courier New', Courier, monospace;
     color:#cecece;
@@ -17,6 +17,7 @@ section {
     float: right;
     width: 65%;
     padding: 2%;
+    padding-top: 0;
 }
 
 footer {
@@ -24,10 +25,19 @@ footer {
     width: 100%;
 }
 
+#banner {
+    width: 30%;
+}
+
 #asidemain {
-    width: 60%;
+    width: 40%;
 }
 
 #chart {
     width: 100%;
+}
+
+#sectionmain {
+    float: right;
+    width: 20%;
 }
