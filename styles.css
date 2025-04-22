@@ -65,8 +65,40 @@ footer {
 table {
     width: 100%;
     height: 100%;
+    background-color:rgb(60, 76, 91);
+    padding: 20px; padding-top: 10px;
 }
 
 table a {
     color: #cecece;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    color: #290000;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.toggle {
+    background-color:rgb(60, 76, 91);
+    padding: 20px;
+}
+
+#categories li {
+
+    display: inline-block;
+    
+
+    list-style-type: none;
+
+    margin: 0.5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.project {
+    background-color: rgb(37, 54, 79); 
+    padding: 20px;
 }
