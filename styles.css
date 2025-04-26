@@ -69,10 +69,6 @@ table {
     padding: 20px; padding-top: 10px;
 }
 
-table a {
-    color: #cecece;
-}
-
 button {
     font-family: 'Courier New', Courier, monospace;
     color: #290000;
@@ -97,30 +93,24 @@ button {
     margin-bottom: 0;
 }
 
-td {
-    background-color: rgb(37, 54, 79); 
-    padding: 20px;
-    width: 30%;
-}
-
-.projects {
+#projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
 
-  .project {
+.project {
     background-color: rgb(60, 76, 91);
     border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;
-  }
+}
 
-  .hidden {
+.hidden {
     display:none;
   }
 
-  .project a {
+.project a {
     color: #cecece;
     text-decoration: none;
   }
@@ -129,4 +119,16 @@ td {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+}
+
+.link{
+    background-color: rgb(60, 76, 91);
+    border-radius: 8px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.link a {
+    color: #cecece;
+    padding-top: 20px;
 }
